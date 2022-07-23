@@ -1,0 +1,16 @@
+[features]
+seeds = false
+[programs.devnet]
+staking_tool = "5t5JnxNKbUXgbECee468FCxghPxWnRyBni1Lso2fj8nQ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+# wallet = "/home/kts/.config/solana/id.json"
+wallet = "/home/messi/zilla_staking/zilla_dev.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
